@@ -10,5 +10,7 @@ now you can execute it like this `go build -o password-generator password-genera
 install goreleaser and generate a new release
 ```sh
 go get -u github.com/goreleaser/goreleaser
+export GITHUB_TOKEN="your github token"
+git tag v1.0.0
 goreleaser release
 ```
