@@ -1,0 +1,11 @@
+# goreleaser.yml
+project_name: password-generator
+builds:
+  - main: main.go
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - amd64
+      - 386
